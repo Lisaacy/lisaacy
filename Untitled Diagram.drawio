@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T02:40:37.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.6.2" etag="8ZOUfZF6kkUybqU4-8Lg" type="github"><diagram id="YdHQLj_PPKjWVGoSD0Ah">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-29T02:58:22.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="PG-az-3HPauouBZusbRo" version="15.6.2" type="github" pages="2">
+  <diagram id="YdHQLj_PPKjWVGoSD0Ah" name="Page-1">
+    <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1Td2CLIDUB6Xetg1if8f-1" value="估计货车停车卸货的大致位置区域，在周边设置监控系统采集货车信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="20" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1Td2CLIDUB6Xetg1if8f-2" value="融合所有传感器获取到的观测目标数据信息，得到具备颜色特征的点云图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1Td2CLIDUB6Xetg1if8f-3" value="从点云图中提取感兴趣区域，获得货物两侧的点云信息，并进行载具识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1Td2CLIDUB6Xetg1if8f-4" value="对载具轮廓范围内的点云进行密度过滤和法向量过滤，获取载具的最前方横截面点云群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1Td2CLIDUB6Xetg1if8f-5" value="求取载具的位姿，为叉车入叉方向做数据支撑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1Td2CLIDUB6Xetg1if8f-6" value="取货优先级判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="520" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1Td2CLIDUB6Xetg1if8f-7" value="中控系统下达指令安排叉车取货" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="620" width="230" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OacXd5yGZSWJlcQby97u" name="Page-2">
+    <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-0" />
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-1" parent="GvkAsMoRvQvM4slVLa3t-0" />
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GvkAsMoRvQvM4slVLa3t-1" source="GvkAsMoRvQvM4slVLa3t-2" target="GvkAsMoRvQvM4slVLa3t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-2" value="货车信息采集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GvkAsMoRvQvM4slVLa3t-1">
+          <mxGeometry x="140" y="20" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GvkAsMoRvQvM4slVLa3t-1" source="GvkAsMoRvQvM4slVLa3t-3" target="GvkAsMoRvQvM4slVLa3t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-3" value="多传感器融合得到具备颜色特征的点云图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GvkAsMoRvQvM4slVLa3t-1">
+          <mxGeometry x="140" y="120" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GvkAsMoRvQvM4slVLa3t-1" source="GvkAsMoRvQvM4slVLa3t-4" target="GvkAsMoRvQvM4slVLa3t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-4" value="提取感兴趣区域并进行载具识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GvkAsMoRvQvM4slVLa3t-1">
+          <mxGeometry x="140" y="220" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GvkAsMoRvQvM4slVLa3t-1" source="GvkAsMoRvQvM4slVLa3t-5" target="GvkAsMoRvQvM4slVLa3t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-5" value="获取载具的最前方横截面点云群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GvkAsMoRvQvM4slVLa3t-1">
+          <mxGeometry x="140" y="320" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GvkAsMoRvQvM4slVLa3t-1" source="GvkAsMoRvQvM4slVLa3t-6" target="GvkAsMoRvQvM4slVLa3t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-6" value="载具位姿求取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GvkAsMoRvQvM4slVLa3t-1">
+          <mxGeometry x="140" y="420" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GvkAsMoRvQvM4slVLa3t-1" source="GvkAsMoRvQvM4slVLa3t-7" target="GvkAsMoRvQvM4slVLa3t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-7" value="取货优先级判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GvkAsMoRvQvM4slVLa3t-1">
+          <mxGeometry x="140" y="520" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GvkAsMoRvQvM4slVLa3t-8" value="下达指令安排叉车取货" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GvkAsMoRvQvM4slVLa3t-1">
+          <mxGeometry x="140" y="620" width="230" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
