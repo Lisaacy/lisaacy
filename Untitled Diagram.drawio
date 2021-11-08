@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T03:54:39.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="k4JI1sSYQ-83htrErCCZ" version="15.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-08T08:31:37.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="-OVysT1BmG0JrazgBkl-" version="15.2.7" type="github" pages="4">
   <diagram id="YdHQLj_PPKjWVGoSD0Ah" name="Page-1">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="klYu7KEuXF_8shd7se0M" name="Page-3">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="dr8kbHntWYT8qdhEqY6U-0" />
         <mxCell id="dr8kbHntWYT8qdhEqY6U-1" parent="dr8kbHntWYT8qdhEqY6U-0" />
@@ -112,6 +112,47 @@
         </mxCell>
         <mxCell id="dr8kbHntWYT8qdhEqY6U-9" value="&lt;font style=&quot;font-size: 18px&quot;&gt;x&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dr8kbHntWYT8qdhEqY6U-1">
           <mxGeometry x="510" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qOqEoCAatPNm_ortA6XE" name="Page-4">
+    <mxGraphModel dx="1186" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="U2GbI5yvhp4rD8sOZWzs-0" />
+        <mxCell id="U2GbI5yvhp4rD8sOZWzs-1" parent="U2GbI5yvhp4rD8sOZWzs-0" />
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U2GbI5yvhp4rD8sOZWzs-1" source="U2GbI5yvhp4rD8sOZWzs-2" target="kA91wqHhMFa5RmD-ZX2s-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2GbI5yvhp4rD8sOZWzs-2" value="数据采集" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;arcSize=23;" vertex="1" parent="U2GbI5yvhp4rD8sOZWzs-1">
+          <mxGeometry x="330" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U2GbI5yvhp4rD8sOZWzs-1" source="kA91wqHhMFa5RmD-ZX2s-0" target="kA91wqHhMFa5RmD-ZX2s-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-0" value="点云合成" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;arcSize=23;" vertex="1" parent="U2GbI5yvhp4rD8sOZWzs-1">
+          <mxGeometry x="330" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U2GbI5yvhp4rD8sOZWzs-1" source="kA91wqHhMFa5RmD-ZX2s-1" target="kA91wqHhMFa5RmD-ZX2s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-1" value="点云数据预处理" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;arcSize=23;" vertex="1" parent="U2GbI5yvhp4rD8sOZWzs-1">
+          <mxGeometry x="330" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-4" value="求取散货数量" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;arcSize=23;" vertex="1" parent="U2GbI5yvhp4rD8sOZWzs-1">
+          <mxGeometry x="330" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U2GbI5yvhp4rD8sOZWzs-1" source="kA91wqHhMFa5RmD-ZX2s-5" target="kA91wqHhMFa5RmD-ZX2s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U2GbI5yvhp4rD8sOZWzs-1" source="kA91wqHhMFa5RmD-ZX2s-5" target="kA91wqHhMFa5RmD-ZX2s-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-5" value="散货是否标准摆放" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;" vertex="1" parent="U2GbI5yvhp4rD8sOZWzs-1">
+          <mxGeometry x="315" y="320" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kA91wqHhMFa5RmD-ZX2s-13" value="反馈至中控系统" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;arcSize=23;" vertex="1" parent="U2GbI5yvhp4rD8sOZWzs-1">
+          <mxGeometry x="150" y="340" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
