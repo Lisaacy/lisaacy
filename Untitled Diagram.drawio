@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T07:13:51.625Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="a6LwZAiNWYcp9esSBhW8" version="15.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-01T09:27:21.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="F98zt4PSzrM_48v-yo5d" version="15.7.4" type="github" pages="2">
   <diagram id="qTN_XoGzaRHSL3tezx0D" name="Page-1">
     <mxGraphModel dx="988" dy="2194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -219,7 +219,7 @@
           <mxGeometry y="263" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="dJi0PhWXHKyRflDUWfFJ-197" value="库位属性、测绘定合适的安装位置、最佳方案：相机等高&lt;br&gt;得到货物高度和相机安装高度，就可以算一个相机监控多少个库位&lt;br&gt;再找最优监控方案：最少的相机监控最多的库位&lt;br&gt;小物体检测「模型难识别小物体」&lt;br&gt;优先选择6mm，4mm次之，2.8mm最后&lt;br&gt;迭代过程，试摄像头位置和转向方向，算最优相机-库位匹配关系&lt;br&gt;服务器选型【要介绍类型intel cpu nvida gpu 显卡和cpu属性是否正常】&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="g2Watqp7JFzsTT7KAdyt-1">
-          <mxGeometry x="70" y="990" width="350" height="180" as="geometry" />
+          <mxGeometry x="70" y="990" width="350" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
